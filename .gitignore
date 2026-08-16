@@ -1,0 +1,25 @@
+# Python environment
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Dataset (Avoid uploading large datasets)
+dataset/images/*
+dataset/labels/*
+!dataset/images/.gitkeep
+!dataset/labels/.gitkeep
+
+# Models (Avoid uploading large checkpoints)
+runs/
+*.pt
+
+# Outputs
+outputs/predictions/*
+outputs/videos/*
+outputs/reports/*
+
+# Streamlit
+.streamlit/
